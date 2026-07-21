@@ -9,7 +9,7 @@ t.circle(radius) #원 그리기
 t.forward(30) #fd , forward 앞으로 이동한다
 t.circle(radius) #원 그리기
 
-for _ in range(4): #필요없는 변수를 만들때에는 _를 사용한다
+for _ in range(4): #필요없는 변수를 만들때에는   _를 사용한다
     t.forward(2*radius)
     t.right(90)
 # 한변의 길이가 반지름의 2배인 정사각형 생성

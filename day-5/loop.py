@@ -4,11 +4,11 @@ cnt = 1
 sum = 0
 
 while cnt < 101 :
-    if cnt%5 != 0:
-        sum += cnt
-        cnt +=1
+    if cnt%5 != 0: #cnt%5 는 나머지를 말함 -> 즉 5의 배수만을 말함 = 5로 나눴을때 나머지가 0이 아님
+        sum += cnt # 합에 5의 배수를 추가
+        cnt +=1 # 횟수 증가
     else :
-        cnt +=1
+        cnt +=1 # 횟수 증가
         continue # continue 는 현재 반복을 끝내고 반복문의 시작 부분으로 이동
 print("cnt:",cnt,"sum:",sum)
 

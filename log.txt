@@ -1,0 +1,9 @@
+INFO System started successfully
+INFO User login detected
+WARNING Low disk space
+INFO Loading configuration
+ERROR Failed to connect to database
+INFO Retrying connection
+WARNING Memory usage high
+ERROR Timeout while processing request
+INFO Shutdown initiated
